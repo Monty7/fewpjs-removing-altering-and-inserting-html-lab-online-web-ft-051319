@@ -29,4 +29,5 @@
 // element.className = "dog";
 // element.className = "pet-listing dog";
 document.querySelector("main#main").remove();
-let newHeader;
+let newHeader = document.createElement('h1');
+
