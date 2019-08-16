@@ -12,8 +12,15 @@ for(let i = 1; i <= 3; i++){
   ul.appendChild(li);
 }
 
+var para = document.createElement("p#greeting");
 element.appendChild(0);
 
-let element = document.querySelector("p#greeting");
+let element2 = document.querySelector("p#greeting");
 
-element.innerHTML = "Hello, DOM!"
+element2.innerHTML = "Hello, DOM!";
+
+let header = document.getElementById("div#header");
+
+header.innerHTML="<h"
+
+
