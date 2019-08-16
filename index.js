@@ -28,4 +28,4 @@
 
 // element.className = "dog";
 // element.className = "pet-listing dog";
-
+document.querySelector("main#main").remove();
