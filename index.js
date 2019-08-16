@@ -29,4 +29,4 @@
 // element.className = "dog";
 // element.className = "pet-listing dog";
 document.querySelector("main#main").remove();
-var newHeader = document.querySelector("h1#victory");
+var newHeader = document.createElement("h1#victory");
